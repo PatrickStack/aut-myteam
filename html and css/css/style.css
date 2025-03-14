@@ -1,3 +1,17 @@
+/* Costum props */
+:root {
+  --midnight-green: #014E56;
+  --light-color: #F67E7E;
+  --white: #fff;
+  --rapture-blue: #79C8C7;
+  --police-blue: #2C6269;
+  --deep-jungle-green: #004047;
+  --sacramento-state-green: #012F34;
+  --dark-green: #002529;
+}
+
+
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -18,9 +32,9 @@ body {
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Arial", "sans-serif";
-  background-color: #fff;
-  color: #222;
+  font-family: "Livvic", "Arial", "sans-serif";
+  background-color: var(--midnight-green);
+  color: #fff;
 }
 img {
   max-width: 100%;
@@ -42,9 +56,9 @@ img {
 
 /* CONTAINER */
 .container {
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
